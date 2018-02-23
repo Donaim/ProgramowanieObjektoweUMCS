@@ -6,9 +6,16 @@ using std::cout, std::cin, std::endl;
 class Point {
     float x, y;
 public:
-    void set_x(float val) { x = val; }
-    float get_x() { return x; }
+    void set_x(float val);
+    float get_x() const;
 };
+
+void Point::set_x(float val) {
+    this->x = val;
+}
+float Point::get_x() const {
+    return this->x;
+}
 
 
 int main() {
