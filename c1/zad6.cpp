@@ -17,7 +17,3 @@ float Triangle::area() {
     * (p - Point::distance(b, c))
     * (p - Point::distance(c, a)));
 }
-
-int main() {
-    return 0;
-}

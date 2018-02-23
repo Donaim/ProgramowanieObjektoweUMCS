@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-using std::cout, std::cin, std::endl;
-// using namespace std;
+using namespace std;
 
 class Point {
     float x, y;

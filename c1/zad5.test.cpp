@@ -1,7 +1,7 @@
 #include "zad5.cpp"
 #include <iostream>
 
-using std::cout, std::cin, std::endl;
+using namespace std;
 
 int main() {
     Point p {2, 3};
