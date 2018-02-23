@@ -6,8 +6,18 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "g++ main.cpp",
-            "group": "build"
+            "command": "g++",
+            "args": [
+                "${file}",
+                "-std=c++1z",
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel":"dedicated"
+            }
         },
         {
             "label": "run",
