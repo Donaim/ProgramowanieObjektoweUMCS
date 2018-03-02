@@ -13,9 +13,9 @@
             ],
             "group": "build",
             "presentation": {
-                "echo": false,
+                "echo": true,
                 "reveal": "silent",
-                "focus": false,
+                "focus": true,
                 "panel":"dedicated"
             }
         },
@@ -29,7 +29,7 @@
                 "isDefault": true
             },
             "presentation": {
-                "echo": true,
+                "echo": false,
                 "reveal": "always",
                 "focus": true,
                 "panel": "shared"

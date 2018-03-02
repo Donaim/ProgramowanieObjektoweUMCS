@@ -1,0 +1,5 @@
+aaa bbb
+cc ddd www
+xx yy bbb kkk
+bbb lll bbbkkk
+ilosc wystapien "bbb" = 5
