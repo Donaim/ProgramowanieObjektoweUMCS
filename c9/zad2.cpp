@@ -1,0 +1,20 @@
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+struct Point {
+  float x, y;
+};
+
+
+
+
+int main() {
+  
+
+  
+  return 0;
+}  

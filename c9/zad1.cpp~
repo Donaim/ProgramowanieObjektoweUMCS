@@ -1,0 +1,25 @@
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+struct Point {
+  const float x, y;
+  Point(float x_, float y_) : x{x_}, y{y_} {}
+};
+
+
+int main() {
+  vector<Point> vec{};
+  vec.push_back(Point {5, 3});
+
+  for (Point p : vec) {
+	cout << &p << endl;
+  }
+
+  
+  
+  return 0;
+}
